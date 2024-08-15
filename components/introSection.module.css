@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    width: 73%;
+    justify-content: space-between;
+    margin: 4rem;
+}
+.infoSection h1{
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: 0.15rem;
+}
+.indent{
+    margin-left: 9rem;
+}
+.infoSection h3{
+    color: #FD6F00;
+    margin: 0;
+}
+.infoSection{
+    width: 40.5%;
+}
+.infoSection button{
+    border: none;
+    background-color: #FD6F00;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.infoSection button:hover{
+    background-color: brown;
+}
+.infoSection button:active{
+    opacity: 0.5;
+    box-shadow: 0 0.3rem 0.3rem black;
+    transform: scale(0.95,0.95);
+}
+.infoSection p{
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+.photoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.frame{
+    /* overflow: hidden; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    background-color: white;
+    /* box-shadow: 0 0 1rem white; */
+}
+.frame::before{
+    content: '';
+    position: absolute;
+    height: 104%;
+    width: 104%;
+    background: linear-gradient(rgba(0, 0, 0, 0.26), #fd6e00);
+    border-radius: 50%;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.firstImage{
+    border-radius: 50%;
+}
+.secondImage{
+    position: absolute;
+    top: -4.9rem;
+    left: -0.50rem;
+}
+.block{
+    position: absolute;
+    height: 3rem;
+    width: 15rem;
+    background-color: #fd6e00af;
+    z-index: 1000;
+    top:0;
+}
