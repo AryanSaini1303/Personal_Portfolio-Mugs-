@@ -92,7 +92,7 @@
 }
 
 .indicator.active {
-    background-color: #ff5722;
+    background-color: var(--primary-color);
 }
 .itemText p span{
     position: absolute;

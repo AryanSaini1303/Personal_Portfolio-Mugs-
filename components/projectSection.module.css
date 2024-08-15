@@ -31,7 +31,7 @@
     transition: all 0.2s ease-in-out;
 }
 .filters button:nth-child(3){
-    background-color: #FD6F00;
+    background-color: var(--primary-color);
     color: white;
 }
 .filters button:hover{
@@ -69,7 +69,7 @@
 .cards div h6{
     font-weight: 500;
     font-size: 0.8rem;
-    color: #FD6F00;
+    color: var(--primary-color);
     margin: 0.8rem 0;
 }
 .cards div h5{
