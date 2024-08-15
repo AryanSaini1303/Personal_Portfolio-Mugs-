@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.container header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.container header p{
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+.container header h1{
+    margin: 0;
+    font-size: 2.2rem;
+}
+.cardContainer{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 1.5rem 0.8rem;
+    width: 50%;
+    transition: all 0.2s ease-in-out;
+}
+.card h3{
+    margin: 0.5rem 0;
+}
+.card p{
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+.card:hover{
+    cursor: pointer;
+    background-color:rgba(255, 228, 196, 0.627);
+    transform: scale(1.01,1.01);
+    box-shadow: 0 0.8rem 1rem black;
+}
+.logo{
+    position: relative;
+}

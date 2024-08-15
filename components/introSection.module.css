@@ -2,7 +2,8 @@
     display: flex;
     width: 73%;
     justify-content: space-between;
-    margin: 4rem;
+    padding: 3.3rem 0;
+    overflow: hidden;
 }
 .infoSection h1{
     font-size: 4rem;
@@ -47,6 +48,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    flex-direction: column;
+    gap: 1rem;
 }
 .frame{
     /* overflow: hidden; */
@@ -63,8 +66,8 @@
 .frame::before{
     content: '';
     position: absolute;
-    height: 104%;
-    width: 104%;
+    height: 102%;
+    width: 102%;
     background: linear-gradient(rgba(0, 0, 0, 0.26), #fd6e00);
     border-radius: 50%;
     z-index: -1;
@@ -74,11 +77,15 @@
 }
 .firstImage{
     border-radius: 50%;
+    -webkit-user-drag: none;
+    user-select:none;
 }
 .secondImage{
     position: absolute;
     top: -4.9rem;
     left: -0.50rem;
+    -webkit-user-drag: none;
+    user-select:none;
 }
 .block{
     position: absolute;
@@ -87,4 +94,22 @@
     background-color: #fd6e00af;
     z-index: 1000;
     top:0;
+}
+.socials button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.socials{
+    display: flex;
+    gap: 0.3rem;
+    position: absolute;
+    bottom: -1.5rem;
+    height: 2rem;
+    align-items: flex-end;
 }

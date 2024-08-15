@@ -17,19 +17,31 @@
     gap: 0.3rem;
     align-items: center;
 }
-.navs>ul li:last-child{
+.navs>ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem 1.3rem;
+    border-radius: 5px;
+}
+.navs>ul li:last-child *{
     background-color: #FD6F00;
     padding: 0.7rem 1.3rem;
     border-radius: 5px;
     color: white;
-}
-.navs>ul li{
-    padding: 0.7rem 1.3rem;
-    border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
+.navs>ul li:last-child:hover{
+    background-color: white;
+}
+.navs>ul li{
+    padding: 0.7rem 0;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
 .navs>ul li:hover{
-    background-color: beige;
+    background-color: bisque;
     cursor: pointer;
 }
 .navs>ul li:active{
@@ -38,8 +50,17 @@
     box-shadow: 0 0.3rem 0.3rem black;
     cursor: pointer;
 }
-.navs>ul li:last-child:hover{
+.navs>ul li:last-child *:hover{
     background-color: brown;
+}
+.navs>ul li:last-child:active{
+    box-shadow: none;
+}
+.navs>ul li:last-child *:active{
+    box-shadow: 0 0.3rem 0.3rem black;
+}
+.navs>ul li:last-child{
+    padding: 0;
 }
 .logoSection h1{
     font-weight: 300;
