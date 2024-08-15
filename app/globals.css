@@ -2,3 +2,9 @@
     --primary-color:#FD6F00;
     --secondary-color:#F8F8F8;
 }
+body{
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }

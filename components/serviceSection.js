@@ -28,7 +28,12 @@ export default function ServiceSection() {
         </div>
         <div className={`${styles.card2} ${styles.card}`}>
           <div className={styles.logo}>
-            <Image src={"/logos/web_design_logo.png"} width={40} height={45} alt=""/>
+            <Image
+              src={"/logos/web_design_logo.png"}
+              width={40}
+              height={45}
+              alt=""
+            />
           </div>
           <h3>Web Design</h3>
           <p>
@@ -38,7 +43,12 @@ export default function ServiceSection() {
         </div>
         <div className={`${styles.card3} ${styles.card}`}>
           <div className={styles.logo}>
-            <Image src={"/logos/app_design_logo.png"} width={25} height={45} alt=""/>
+            <Image
+              src={"/logos/app_design_logo.png"}
+              width={25}
+              height={45}
+              alt=""
+            />
           </div>
           <h3>App Design</h3>
           <p>
@@ -48,7 +58,12 @@ export default function ServiceSection() {
         </div>
         <div className={`${styles.car4} ${styles.card}`}>
           <div className={styles.logo}>
-            <Image src={"/logos/Graphic_Design_logo.png"} width={50} height={43} alt=""/>
+            <Image
+              src={"/logos/Graphic_Design_logo.png"}
+              width={50}
+              height={43}
+              alt=""
+            />
           </div>
           <h3>Graphic Design</h3>
           <p>

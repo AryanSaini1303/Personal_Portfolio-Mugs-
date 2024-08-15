@@ -26,7 +26,7 @@ export default function ProjectSection() {
               height={320}
               className={styles.firstImage}
               alt=""
-              />
+            />
             <Image
               src={"/projectImages/Web Designs (1).png"}
               width={180}
@@ -46,7 +46,7 @@ export default function ProjectSection() {
               height={320}
               className={styles.firstImage}
               alt=""
-              />
+            />
             <Image
               src={"/projectImages/Web Designs (3).png"}
               width={180}
@@ -66,7 +66,7 @@ export default function ProjectSection() {
               height={320}
               className={styles.firstImage}
               alt=""
-              />
+            />
             <Image
               src={"/projectImages/Web Designs (5).png"}
               width={180}

@@ -4,16 +4,16 @@ import styles from "./introSection.module.css";
 import { useState } from "react";
 export default function IntroSection() {
   const [hover, setHover] = useState({});
-  function handleMouseEnter(social){
-    setHover((prevValue)=>({...prevValue, [social]:true}));
+  function handleMouseEnter(social) {
+    setHover((prevValue) => ({ ...prevValue, [social]: true }));
   }
-  function handleMouseLeave(social){
-    setHover((prevValue)=>({...prevValue, [social]:false}));
+  function handleMouseLeave(social) {
+    setHover((prevValue) => ({ ...prevValue, [social]: false }));
   }
-  const customStyle={
-    paddingBottom:"0.8rem",
-    transform:"scale(1.3,1.3)"
-  }
+  const customStyle = {
+    paddingBottom: "0.8rem",
+    transform: "scale(1.3,1.3)",
+  };
   return (
     <div className={styles.container} id="home">
       <section className={styles.infoSection}>
@@ -49,17 +49,88 @@ export default function IntroSection() {
           />
         </div>
         <div className={styles.socials}>
-          <button onMouseEnter={()=>{handleMouseEnter('facebook')}} onMouseLeave={()=>{handleMouseLeave('facebook')}} style={hover.facebook?customStyle:null}>
-            <a href="https://m.facebook.com/" target="_blank" rel="noopener noreferrer"><Image src={"/logos/facebook_logo.png"} width={20} height={20} alt=""/></a>
+          <button
+            onMouseEnter={() => {
+              handleMouseEnter("facebook");
+            }}
+            onMouseLeave={() => {
+              handleMouseLeave("facebook");
+            }}
+            style={hover.facebook ? customStyle : null}
+          >
+            <a
+              href="https://m.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={"/logos/facebook_logo.png"}
+                width={20}
+                height={20}
+                alt=""
+              />
+            </a>
           </button>
-          <button onMouseEnter={()=>{handleMouseEnter('X')}} onMouseLeave={()=>{handleMouseLeave('X')}} style={hover.X?customStyle:null}>
-            <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><Image src={"/logos/X_logo.png"} width={20} height={20} alt=""/></a>
+          <button
+            onMouseEnter={() => {
+              handleMouseEnter("X");
+            }}
+            onMouseLeave={() => {
+              handleMouseLeave("X");
+            }}
+            style={hover.X ? customStyle : null}
+          >
+            <a
+              href="https://twitter.com/?lang=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={"/logos/X_logo.png"} width={20} height={20} alt="" />
+            </a>
           </button>
-          <button onMouseEnter={()=>{handleMouseEnter('instagram')}} onMouseLeave={()=>{handleMouseLeave('instagram')}} style={hover.instagram?customStyle:null}>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><Image src={"/logos/instagram_logo.png"} width={20} height={20} alt=""/></a>
+          <button
+            onMouseEnter={() => {
+              handleMouseEnter("instagram");
+            }}
+            onMouseLeave={() => {
+              handleMouseLeave("instagram");
+            }}
+            style={hover.instagram ? customStyle : null}
+          >
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={"/logos/instagram_logo.png"}
+                width={20}
+                height={20}
+                alt=""
+              />
+            </a>
           </button>
-          <button onMouseEnter={()=>{handleMouseEnter('linkedIn')}} onMouseLeave={()=>{handleMouseLeave('linkedIn')}} style={hover.linkedIn?customStyle:null}>
-            <a href="https://www.linkedin.com/hp" target="_blank" rel="noopener noreferrer"><Image src={"/logos/linkedIn_logo.png"} width={20} height={20} alt=""/></a>
+          <button
+            onMouseEnter={() => {
+              handleMouseEnter("linkedIn");
+            }}
+            onMouseLeave={() => {
+              handleMouseLeave("linkedIn");
+            }}
+            style={hover.linkedIn ? customStyle : null}
+          >
+            <a
+              href="https://www.linkedin.com/hp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={"/logos/linkedIn_logo.png"}
+                width={20}
+                height={20}
+                alt=""
+              />
+            </a>
           </button>
         </div>
       </section>

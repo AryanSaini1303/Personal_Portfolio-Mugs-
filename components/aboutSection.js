@@ -24,24 +24,29 @@ export default function AboutSection() {
       </section>
       <section className={styles.infoSection}>
         <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique autem non est incidunt, eaque voluptatum placeat, voluptas veniam recusandae repudiandae vero nostrum quo a temporibus architecto laudantium vel explicabo.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          similique autem non est incidunt, eaque voluptatum placeat, voluptas
+          veniam recusandae repudiandae vero nostrum quo a temporibus architecto
+          laudantium vel explicabo.
+        </p>
         <section className={styles.skillSection}>
-            <div>
-                <h4>UX</h4>
-                <div className={`${styles.bar} ${styles.bar1}`}></div>
-            </div>
-            <div>
-                <h4>Website Design</h4>
-                <div className={`${styles.bar} ${styles.bar2}`}></div>
-            </div>
-            <div>
-                <h4>App Design</h4>
-                <div className={`${styles.bar} ${styles.bar3}`}></div>
-            </div>
-            <div>
-                <h4>Graphic Design</h4>
-                <div className={`${styles.bar} ${styles.bar4}`}></div>
-            </div>
+          <div>
+            <h4>UX</h4>
+            <div className={`${styles.bar} ${styles.bar1}`}></div>
+          </div>
+          <div>
+            <h4>Website Design</h4>
+            <div className={`${styles.bar} ${styles.bar2}`}></div>
+          </div>
+          <div>
+            <h4>App Design</h4>
+            <div className={`${styles.bar} ${styles.bar3}`}></div>
+          </div>
+          <div>
+            <h4>Graphic Design</h4>
+            <div className={`${styles.bar} ${styles.bar4}`}></div>
+          </div>
         </section>
       </section>
     </div>

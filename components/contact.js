@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import styles from "./contact.module.css";
 
 export default function Contact() {
@@ -15,10 +15,7 @@ export default function Contact() {
         eveniet quam ut, sapiente eum voluptatem modi nam expedita sequi
         perspiciatis.
       </p>
-      <form
-        className={styles.formElement}
-        onSubmit={handleFormSubmission}
-      >
+      <form className={styles.formElement} onSubmit={handleFormSubmission}>
         <input type="email" name="email" placeholder="Enter Your Email" />
         <button type="submit">Contact Me</button>
       </form>

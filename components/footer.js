@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.info}>
         <div className={styles.logo}>
-          <img src={"/logos/name_logo.png"} alt="Logo"/>
+          <img src={"/logos/name_logo.png"} alt="Logo" />
           <h2>Mumair</h2>
         </div>
         <nav className={styles.nav}>
@@ -24,28 +24,43 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={"/logos/facebook_logo.png"} width={20} height={20} alt=""/>
+            <Image
+              src={"/logos/facebook_logo.png"}
+              width={20}
+              height={20}
+              alt=""
+            />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={"/logos/X_logo.png"} width={20} height={20} alt=""/>
+            <Image src={"/logos/X_logo.png"} width={20} height={20} alt="" />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={"/logos/instagram_logo.png"} width={20} height={20} alt=""/>
+            <Image
+              src={"/logos/instagram_logo.png"}
+              width={20}
+              height={20}
+              alt=""
+            />
           </a>
           <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={"/logos/linkedIn_logo.png"} width={20} height={20} alt=""/>
+            <Image
+              src={"/logos/linkedIn_logo.png"}
+              width={20}
+              height={20}
+              alt=""
+            />
           </a>
         </div>
       </div>

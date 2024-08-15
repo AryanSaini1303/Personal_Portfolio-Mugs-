@@ -76,11 +76,11 @@ export default function Testimonials() {
               <div className={styles.itemText}>
                 <p>
                   <span className={styles.firstQuotes}>
-                    <Image src={"/quotes.png"} height={10} width={10} alt=""/>
+                    <Image src={"/quotes.png"} height={10} width={10} alt="" />
                   </span>
                   {item.text}
                   <span className={styles.secondQuotes}>
-                    <Image src={"/quotes.png"} height={10} width={10} alt=""/>
+                    <Image src={"/quotes.png"} height={10} width={10} alt="" />
                   </span>
                 </p>
                 <div className={styles.info}>
@@ -104,4 +104,4 @@ export default function Testimonials() {
       </div>
     </div>
   );
-};
+}
