@@ -1,10 +1,10 @@
-:root{
-    --primary-color:#FD6F00;
-    --secondary-color:#F8F8F8;
+:root {
+  --primary-color: #fd6f00;
+  --secondary-color: #f8f8f8;
 }
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
