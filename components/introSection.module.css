@@ -14,6 +14,7 @@
 }
 .infoSection h4{
   color: var(--primary-font-color);
+  margin: 0.5rem 0;
 }
 .indent {
   margin-left: 9rem;

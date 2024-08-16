@@ -6,6 +6,7 @@
     --primary-font-color:black;
     --primary-contrast:30%;
     --primary-invert:0%;
+    --primary-footer-color:#333333;
 }
 body{
     margin: 0;

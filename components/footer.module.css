@@ -56,13 +56,14 @@
 }
 
 .copyright {
-  background-color: #333;
+  background-color: var(--primary-footer-color);
   color: #fff;
-  padding: 10px 0;
+  padding: 20px 0;
   margin-top: 20px;
   position: absolute;
   bottom: 0;
   width: 100%;
+  font-size: 0.8rem;
 }
 
 .brand {
