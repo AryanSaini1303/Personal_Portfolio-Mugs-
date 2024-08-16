@@ -14,10 +14,12 @@
     text-align: center;
     font-size: 0.8rem;
     line-height: 1.3rem;
+    color: var(--primary-font-color);
 }
 .container header h1{
     margin: 0;
     font-size: 2.2rem;
+    color: var(--primary-font-color);
 }
 .cardContainer{
     margin: 1rem 0;

@@ -19,7 +19,7 @@
 }
 .navs > ul li a {
   text-decoration: none;
-  color: black;
+  color: var(--primary-font-color);
   padding: 0.7rem 1.3rem;
   border-radius: 5px;
 }
@@ -65,10 +65,13 @@
 .logoSection h1 {
   font-weight: 300;
   font-size: 2.5rem;
-  color: #545454;
+  color: var(--primary-font-color);
   letter-spacing: 2px;
-}
-.logoSection h1::first-letter {
   font-weight: bold;
-  color: black;
+}
+
+.logoSection h1 .last_letters {
+  color: var(--primary-font-color);
+  font-weight: 300;
+  filter: contrast(var(--primary-contrast));
 }

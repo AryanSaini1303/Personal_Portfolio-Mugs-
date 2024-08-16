@@ -12,7 +12,7 @@ export default function NavBar() {
     <section className={styles.container}>
       <div className={styles.logoSection}>
         <Image src={"/logos/name_logo.png"} width={50} height={50} alt="" />
-        <h1 className={`${styles.name} ${mont.style}`}>Mumair</h1>
+        <h1 className={`${styles.name} ${mont.style}`}>M<span className={styles.last_letters}>umair</span></h1>
       </div>
       <div className={styles.navs}>
         <ul>

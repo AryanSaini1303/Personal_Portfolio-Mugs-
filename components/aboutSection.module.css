@@ -31,7 +31,7 @@
   position: absolute;
   height: 102%;
   width: 102%;
-  background: linear-gradient(rgba(0, 0, 0, 0.515), var(--primary-color) 00);
+  background: linear-gradient(rgba(0, 0, 0, 0.515), var(--primary-color));
   border-radius: 50%;
   z-index: -1;
   top: 50%;
@@ -54,7 +54,8 @@
   position: absolute;
   height: 3rem;
   width: 15rem;
-  background-color: var(--primary-color) af;
+  background-color: var(--primary-color);
+  opacity: 0.6;
   z-index: 1000;
   top: 0.9rem;
 }
@@ -65,11 +66,13 @@
   font-size: 2.5rem;
   font-weight: 600;
   margin: 0;
+  color: var(--primary-font-color);
 }
 .infoSection p {
   text-align: justify;
   font-size: 0.9rem;
   line-height: 1.3rem;
+  color: var(--primary-font-color);
 }
 .bar {
   height: 0.5rem;
@@ -84,6 +87,7 @@
 }
 .skillSection h4 {
   margin: 0.8rem 0;
+  color: var(--primary-font-color);
 }
 .bar1::before {
   content: "";

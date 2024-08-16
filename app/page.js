@@ -7,10 +7,12 @@ import ProjectSection from "@/components/projectSection";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import ModeToogle from "@/components/modeToogle";
 
 export default function Home() {
   return (
     <section className={styles.wrapper}>
+      <ModeToogle/>
       <NavBar />
       <IntroSection />
       <AboutSection />

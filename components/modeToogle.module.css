@@ -1,0 +1,12 @@
+.btn{
+    background:none;
+    border:none;
+    transition:filter 0.2s ease-in-out;
+    filter: invert(var(--primary-invert));
+    position:fixed;
+    left: 0;
+    top: 0.8rem;
+}
+.btn:hover{
+    cursor: pointer;
+}

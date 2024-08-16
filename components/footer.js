@@ -1,6 +1,12 @@
 import Image from "next/image";
 import styles from "./footer.module.css";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
+
+const mont = Montserrat({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 
 export default function Footer() {
   return (
@@ -8,7 +14,7 @@ export default function Footer() {
       <div className={styles.info}>
         <div className={styles.logo}>
           <img src={"/logos/name_logo.png"} alt="Logo" />
-          <h2>Mumair</h2>
+          <h2 className={mont.style}>M<span className={styles.last_letters}>umair</span></h2>
         </div>
         <nav className={styles.nav}>
           <Link href="#home">Home</Link>

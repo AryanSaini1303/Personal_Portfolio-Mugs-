@@ -10,6 +10,10 @@
   margin: 0;
   font-weight: 800;
   letter-spacing: 0.15rem;
+  color: var(--primary-font-color);
+}
+.infoSection h4{
+  color: var(--primary-font-color);
 }
 .indent {
   margin-left: 9rem;
@@ -42,6 +46,7 @@
   text-align: justify;
   font-size: 0.9rem;
   line-height: 1.3rem;
+  color: var(--primary-font-color);
 }
 .photoSection {
   display: flex;
@@ -91,7 +96,8 @@
   position: absolute;
   height: 3rem;
   width: 15rem;
-  background-color: var(--primary-color) af;
+  background-color: var(--primary-color);
+  opacity: 0.6;
   z-index: 1000;
   top: 0;
 }
@@ -103,7 +109,11 @@
   justify-content: center;
   align-content: center;
   position: relative;
-  transition: all 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out, transform 0.2s ease-in-out;
+  background-color: var(--background-color);
+}
+.socials button a *{
+  filter: invert(var(--primary-invert));
 }
 .socials {
   display: flex;
