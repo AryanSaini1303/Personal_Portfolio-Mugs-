@@ -41,7 +41,7 @@
   color: black;
 }
 .navs > ul li:hover {
-  background-color: bisque;
+  background-color: var(--hover-color);
   cursor: pointer;
 }
 .navs > ul li:active {
